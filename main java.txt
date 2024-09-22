@@ -1,0 +1,14 @@
+public class Main
+{
+    public static void main(String[] args) {
+        book book1 = new book("crime and punishment", "Fyodor Dostoevsky",  0 , "9788420741468");
+        /*
+        book1.title = "crime and punishment";
+        book1.author = "Fyodor Dostoevsky";
+        book1.price = "free";
+        book1.ISBN = "9788420741468";
+
+         */
+        book1.displayInfo();
+    }
+}
