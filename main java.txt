@@ -10,5 +10,13 @@ public class Main
 
          */
         book1.displayInfo();
+        book book2 = new book("little hunchbacked horse", "Petr Ershov",  1 , "9788420741478");
+        /*
+        book2.title = "little hunchbacked horse";
+        book2.author = "Petr Ershov";
+        book2.price = "1";
+        book2.ISBN = "9788420741478";
+         */
+        book2.displayInfo();
     }
 }
